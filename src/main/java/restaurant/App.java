@@ -3,7 +3,7 @@ package restaurant;
 import restaurant.actors.Restaurant;
 import restaurant.actors.Table;
 import restaurant.actors.Waiter;
-import restaurant.events.EventStore;
+import restaurant.event_store.EventStore;
 import restaurant.menu.ChickenSoup;
 import restaurant.menu.FishAndChips;
 import restaurant.menu.Steak;

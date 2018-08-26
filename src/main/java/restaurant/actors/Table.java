@@ -1,8 +1,8 @@
 package restaurant.actors;
 
-import restaurant.events.EventStore;
-import restaurant.events.BillRequested;
-import restaurant.events.OrderPlaced;
+import restaurant.event_store.EventStore;
+import restaurant.event_store.events.BillRequested;
+import restaurant.event_store.events.OrderPlaced;
 import restaurant.menu.MenuItem;
 
 public class Table {

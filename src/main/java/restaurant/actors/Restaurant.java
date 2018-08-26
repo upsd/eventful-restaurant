@@ -1,10 +1,10 @@
 package restaurant.actors;
 
-import restaurant.events.EventStore;
-import restaurant.events.BillSent;
-import restaurant.events.EventType;
-import restaurant.events.OrderPlaced;
-import restaurant.events.ServiceRequested;
+import restaurant.event_store.EventStore;
+import restaurant.event_store.EventType;
+import restaurant.event_store.events.BillSent;
+import restaurant.event_store.events.OrderPlaced;
+import restaurant.event_store.events.ServiceRequested;
 import restaurant.output.Console;
 
 public class Restaurant {

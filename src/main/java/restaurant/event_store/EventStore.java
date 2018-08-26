@@ -1,4 +1,4 @@
-package restaurant.events;
+package restaurant.event_store;
 
 import com.sun.tools.javac.util.Pair;
 

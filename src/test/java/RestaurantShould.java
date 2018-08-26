@@ -2,7 +2,7 @@ import org.junit.Test;
 import restaurant.actors.Restaurant;
 import restaurant.actors.Table;
 import restaurant.actors.Waiter;
-import restaurant.events.EventStore;
+import restaurant.event_store.EventStore;
 import restaurant.menu.ChickenSoup;
 import restaurant.output.Console;
 

@@ -1,6 +1,8 @@
-package restaurant.events;
+package restaurant.event_store.events;
 
 import restaurant.actors.Table;
+import restaurant.event_store.Event;
+import restaurant.event_store.EventType;
 
 public class BillRequested implements Event {
 
