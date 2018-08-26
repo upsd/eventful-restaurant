@@ -22,8 +22,8 @@ public class EventStore {
         executeListenersFor(event);
     }
 
-    public void listenFor(EventType event, Consumer<Event> predicate) {
-        Pair<EventType, Consumer> listener = new Pair<>(event, predicate);
+    public void listenFor(EventType event, Consumer<Event> functionToRun) {
+        Pair<EventType, Consumer> listener = new Pair<>(event, functionToRun);
         this.listeners.add(listener);
     }
 
